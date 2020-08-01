@@ -1,3 +1,3 @@
-# super quiz
-  andre303
+# generate-readme
+  andrea
   
