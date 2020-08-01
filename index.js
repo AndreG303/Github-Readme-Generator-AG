@@ -43,13 +43,12 @@ const questions = [{
 {
     type: "input",
     name: "description",
-    message: "Please provide a detail description of the project",
+    message: "Please provide a description of the project",
          validate: description => {
                 if(description.length < 10){
                     return "Description is too short.";
                 }
                 else{
-                    // all validation checks passed
                     return true;
                 }
             }
