@@ -10,10 +10,10 @@ const questions = [
     // project author
     {
         type: 'input',
-        name: 'github',
+        name: 'username',
         message: 'what is your github username?',
-        validate: github => {
-            if (github.length) {
+        validate: username => {
+            if (username.length) {
                 return true;
             }
             return false;
